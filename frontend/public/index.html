@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>EcoSphere</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="LOGO.png" rel="icon">
+  <link href="LOGO.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="bootstrap/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="bootstrap/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="bootstrap/assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="bootstrap/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="bootstrap/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+  rel="stylesheet"
+/>
+
+  <!-- Main CSS File -->
+  <link href="bootstrap/assets/css/main.css" rel="stylesheet">
+</head>
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+      <a href="" class="logo d-flex align-items-center">
+        <img src="LOGO.png" alt="" style="width: 40px; height: auto;">
+        <h1 class="sitename">EcoSphere</h1>
+      </a>
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="" class="active">Home</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+      <img src="BG-Tergimanggimang.gif" class="hero-bg" alt="" data-aos="fade-in">
+        <div class="container text-center" data-aos="fade-up" data-aos-delay="100">
+          <img src="katakatahariini.png" class="img-fluid mb-3" alt="" style="width: 800px; height: auto;">
+          <h2 style="font-size: 45px;">Smart Home Energy Management System</h2>
+          <p> <span class="typed" data-typed-items="Analyze Problem, Chat With AI, Artificial Intelligence"></span></p>
+          <div>
+            <a href="#react-app" class="cta-btn" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Get Started</a>
+          </div>
+        </div>
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="react-app" class="react-app section">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>EcoSphere</h2>
+        <p style="font-size: 17px; font-family: Arial, Helvetica, sans-serif;">Solusi pintar yang memadukan teknologi AI, chatbot, dan manajemen rumah pintar untuk meningkatkan efisiensi energi. Dengan mengotomatisasi kontrol dan memberikan wawasan berbasis data, pengguna bisa menghemat biaya sekaligus mendukung keberlanjutan lingkungan.</p>
+      </div><!-- End Section Title -->
+      <div id="root"></div>
+    </section><!-- /About Section -->
+
+    
+
+  <footer id="footer" class="footer dark-background">
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Syafiq Al-Ghiffari</strong>.</p>
+      <div class="credits">
+        Designed by <a href="https://www.instagram.com/syafiqghiffari__/">Cuok.</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="bootstrap/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="bootstrap/assets/vendor/php-email-form/validate.js"></script>
+  <script src="bootstrap/assets/vendor/aos/aos.js"></script>
+  <script src="bootstrap/assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="bootstrap/assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="bootstrap/assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="bootstrap/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="bootstrap/assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="bootstrap/assets/js/main.js"></script>
+
+  <!-- React and ReactDOM -->
+  <script src="https://unpkg.com/react/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom/umd/react-dom.development.js" crossorigin></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+  <!-- Your React App -->
+  <script src="src/App.js" type="text/babel"></script>
+  <script>
+    // Render the React app
+    ReactDOM.render(<App />, document.getElementById('root'));
+  </script>
+
+</body>
+
+</html>
